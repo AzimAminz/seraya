@@ -15,7 +15,7 @@ const text = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Seraya · Tudung lembut, setinggi Seraya",
+  title: "Seraya",
   description:
     "Tudung pastel dari Kuala Lumpur dalam tujuh warna yang diambil dari hutan. Chiffon, satin dan jersi dari RM59.",
 };

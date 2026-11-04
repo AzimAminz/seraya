@@ -304,7 +304,7 @@ export default function SerayaPage() {
           {shown.map((p) => (
             <article key={p.id} className="card">
               <div className="card-img">
-                <Image src={p.img} alt={p.alt} fill sizes="(max-width: 900px) 72vw, 22vw" />
+                <Image src={p.img} alt={p.alt} fill sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 900px) 46vw, 22vw" />
                 <CardReveal product={p} />
                 <button
                   type="button"
